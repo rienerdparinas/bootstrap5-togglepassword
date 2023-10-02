@@ -3,7 +3,7 @@
 Toggle Password v1.0.0
 
 Description:
-Toggle password visibility by simply adding $('[type="password").togglepassword(); to your javascript
+Toggle password visibility by simply adding $('[type="password"]).togglepassword(); to your javascript
 
 Works with the following dependencies:
 * Bootstrap v5.3 (https://getbootstrap.com/docs/5.3/)
@@ -15,7 +15,7 @@ How to use:
 2. Add jQuery JS file to your <body> tag, preferable at the end of the body
 3. Add the bootstrap5-togglepassword JS file after the jQuery script
 4. Include the line on your Document Load event:
-   $('[type="password").togglepassword();
+   $('[type="password"]).togglepassword();
 
 Sample code:
 
